@@ -1,0 +1,77 @@
+:root{
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav-content{
+    width: auto;
+    height: auto;
+    margin: 0px 20px 0px 20px;
+}
+
+.nav-content-principal{
+    width: auto;
+    height: auto;
+    margin: 15px 15px 0px 15px;
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.nav-content-logo{
+    background-color: wheat;
+    width: auto;
+    height: auto;
+    margin: 15px 0px;
+    padding: 5px 5px;
+    
+}
+
+.nav-content-logo img{
+    width: 100px;
+    height: 100px;
+    justify-content: right;
+    float: right;
+}
+
+.nav-content-items{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px 0px;
+    padding: 5px 5px;
+    cursor: pointer;
+    justify-content: space-around;
+}
+
+.nav-content-items-ul{
+    list-style: none;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav-content-items-ul li{
+    margin: 0px 15px 0px 15px;
+    padding: 0px 15px;
+}
+
+.main-formulario{
+    width: auto;
+    height: auto;
+    margin: 15px 50px 0px 50px;
+}
